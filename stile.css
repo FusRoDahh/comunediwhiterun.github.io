@@ -1,0 +1,174 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/3jO7N1x.jpg");
+  background-repeat: no-repeat;
+  height: center;
+  width: center;
+  text-align: justify;
+  color: white;
+}
+
+.titolo {
+  color: #d2691e;
+  font-size: 26;
+  font-family: 'Francois One', Arial, Helvetica, sans-serif;
+  margin-left: 12%;
+  margin-top: 2%;
+}
+
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.alignleft {float:left;
+  margin-left: 5%;
+  margin-top: 0%;
+ }
+
+
+div#menu {
+  width: 100%;
+  float: left;
+  margin:0;
+  padding:0;
+  border-top: 1px solid black;
+  background: #B0C4DE;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 1px solid black;
+  opacity: 0.8;
+
+}
+
+
+div#menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+div#menu li{
+  width:13%;
+  float:left;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid black;
+  color: #191970;
+  line-height: 150%;
+  margin-top: 0%;
+  text-align: center;
+  font-family: Bahnschrift SemiBold;
+}
+
+div#menu a{
+  display: block;
+  padding: 5px;
+  color: #000;
+  text-decoration: none;
+}
+
+div#menu a:hover{
+  background-color: #000033;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+div#menu li ul{
+  display: none;
+}
+
+div#menu li:hover ul{
+  display: block;
+  position: absolute;
+  z-index:1;
+  width:12.85%;
+  padding: 0;
+  margin: 0 0 0 -1px;
+  border:1px solid black;
+  background: #6A5ACD;
+}
+
+
+div#menu li li { 
+  border:none; width:100%;
+ }
+
+
+div#menu li li a { 
+  padding:2px 2px 2px 10px;
+ }
+
+
+div#menu2{
+  width: 100%;
+  height: 18%;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 0.9;
+}
+
+div#notizie {
+	width: 15%;
+	height: 100%;
+	opacity: 0.8;
+	float: right;
+	margin-top: 2%;
+	margin-bottom: 7%;
+	padding: 0;
+	background:#e6e6fa;
+	border-style: ridge;
+	border-color: grey;
+	font-size: 18;
+	color: #8b4513;
+}
+
+div#notizie ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+div#notizie li {
+	width:100%;
+	float:right;
+	margin: 0;
+	padding: 0;
+	line-height: 150%;
+	margin-top: 0%;
+	text-align: center;
+	font-family: Bahnschrift SemiBold;
+	border-top: 1px solid black;
+}
+
+div#notizie li li { 
+  border:none; width:100%;
+ }
+
+
+div#notizie li li a { 
+  padding:2px 2px 2px 10px;
+ }
+
+.testo_notizia {
+	font-family: 'Francois One', Arial, Helvetica, sans-serif;
+	font-size: 16;
+	text-align: justify;
+	color: 	#000f0f;
+}
+
+div#contenuto {
+	width: 80%;
+	height: 100%;
+	opacity: 0.8;
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
+	padding: 0;
+	border-style: ridge;
+	border-color: grey;
+	background:#e6e6fa;
+}
