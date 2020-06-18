@@ -1,10 +1,11 @@
 body {
-  background-image: url("https://wallpapercave.com/wp/3jO7N1x.jpg");
+  background-color: grey;
   background-repeat: no-repeat;
-  height: center;
-  width: center;
+  height: 1080px
+  width: 720px;
   text-align: justify;
   color: white;
+  
 }
 
 .titolo {
@@ -39,7 +40,6 @@ div#menu {
   border-bottom-right-radius: 10px;
   border-bottom: 1px solid black;
   opacity: 0.8;
-
 }
 
 
@@ -109,39 +109,41 @@ div#menu2{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   opacity: 0.9;
+
 }
 
+
 div#notizie {
-	width: 15%;
-	height: 100%;
-	opacity: 0.8;
-	float: right;
-	margin-top: 2%;
-	margin-bottom: 7%;
-	padding: 0;
-	background:#e6e6fa;
-	border-style: ridge;
-	border-color: grey;
-	font-size: 18;
-	color: #8b4513;
+  width: 15%;
+  height: 80%;
+  opacity: 0.8;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 7%;
+  padding: 0;
+  background:#e6e6fa;
+  border-style: ridge;
+  border-color: grey;
+  font-size: 18;
+  color: #8b4513;
 }
 
 div#notizie ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 div#notizie li {
-	width:100%;
-	float:right;
-	margin: 0;
-	padding: 0;
-	line-height: 150%;
-	margin-top: 0%;
-	text-align: center;
-	font-family: Bahnschrift SemiBold;
-	border-top: 1px solid black;
+  width:100%;
+  float:right;
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+  margin-top: 0%;
+  text-align: center;
+  font-family: Bahnschrift SemiBold;
+  border-top: 1px solid black;
 }
 
 div#notizie li li { 
@@ -153,22 +155,36 @@ div#notizie li li a {
   padding:2px 2px 2px 10px;
  }
 
+
 .testo_notizia {
-	font-family: 'Francois One', Arial, Helvetica, sans-serif;
-	font-size: 16;
-	text-align: justify;
-	color: 	#000f0f;
+  font-family: 'Francois One', Arial, Helvetica, sans-serif;
+  font-size: 16;
+  text-align: justify;
+  color: #000f0f;
 }
 
-div#contenuto {
-	width: 80%;
-	height: 100%;
-	opacity: 0.8;
-	float: left;
-	margin-top: 2%;
-	margin-left: 2%;
-	padding: 0;
-	border-style: ridge;
-	border-color: grey;
-	background:#e6e6fa;
+div#contenuto{
+  width:80%;
+  height: 100%;
+  opacity: 0.8;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 0;
+  border-style:ridge;
+  border-color: grey;
+  background: #e6e6fa;
+
+}
+
+.titolo_home{
+	color: #d2691e;
+	font-size: 26;
+	font-family: 'Francois One', Arial, Helvetica, sans-serif;
+}
+
+.testo_home{
+	color: #000f0f;
+	font-size: 14;
+	font-style: bold;
 }
